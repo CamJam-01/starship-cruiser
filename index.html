@@ -17,9 +17,13 @@
       src: url('assets/fonts/FreeSansBold.ttf');
     }
 
+    main {
+      height: 100vh;
+    }
+
     #play-pen {
       width: 100%;
-      height: calc(100vh - 1rem);
+      height: 100%;
       position: relative;
     }
 
@@ -41,14 +45,12 @@
         top: 0;
         left: 0;
       }
-      /* Top LEFT */
 
-
+      /* rotate */
       23% {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
       }
-
 
       /* Top RIGHT */
       25% {
@@ -57,9 +59,8 @@
         top: 0;
         left: calc(100% - 25px);
       }
-      /* Top RIGHT */
 
-
+      /* rotate */
       26% {
         -webkit-transform: rotate(135deg);
         transform: rotate(135deg);
@@ -69,7 +70,6 @@
         transform: rotate(135deg);
       }
 
-
       /* Bottom RIGHT */
       50% {
         -webkit-transform: rotate(210deg);
@@ -77,9 +77,8 @@
         top: calc(100% - 50px);
         left: calc(100% - 25px);
       }
-      /* Bottom RIGHT */
 
-
+      /* rotate */
       51% {
         -webkit-transform: rotate(225deg);
         transform: rotate(225deg);
@@ -89,7 +88,6 @@
         transform: rotate(225deg);
       }
 
-
       /* Bottom LEFT */
       75% {
         -webkit-transform: rotate(300deg);
@@ -97,9 +95,8 @@
         top: calc(100% - 50px);
         left: 0%;
       }
-      /* Bottom LEFT */
 
-
+      /* rotate */
       76% {
         -webkit-transform: rotate(315deg);
         transform: rotate(315deg);
